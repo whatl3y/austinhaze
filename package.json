@@ -1,0 +1,25 @@
+{
+  "name": "austinhaze",
+  "version": "1.0.0",
+  "description": "austinhaze.com",
+  "main": "./node_modules/.bin/http-server",
+  "scripts": {
+    "dev": "nf start",
+    "start": "./node_modules/.bin/http-server www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatl3y/austinhaze.git"
+  },
+  "author": "Lance Whatley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whatl3y/austinhaze/issues"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "foreman": "^3.0.1"
+  }
+}
