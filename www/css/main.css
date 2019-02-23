@@ -1,18 +1,36 @@
-body {
-  background-image: url(../images/ridehome3-04.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+body, html {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-  padding: 0 60px;
   color: #fff;
+  height: 100%;
+  margin: 0px;
 }
 
-div.ridehome {
-  position:absolute;
-  left: 25%;
-  top: 20%;
+div.main {
+  height: 100%;
 
-  width: 600px;
-  height: 200px;
+  background-image: url(../images/ridehome3-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ridehome {
+  position:absolute;
+
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .ridehome {
+    left: 10%;
+    bottom: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .ridehome {
+    left: 25%;
+    top: 20%;
+  }
 }
